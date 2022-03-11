@@ -1,0 +1,54 @@
+<!-- КПХ 2е А.Онон Homework -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Home Work</title>
+</head>
+<body>
+    <form action="https://uschoolapi.netlify.app/.netlify/functions/api/" method="gat">
+        <Fieldset>
+            <Legend>Account Information</Legend>
+            Login Name* <input type="text" name="Login" id="" placeholder="Please enter login name" required><br>
+            Password: <input type="password" name="password" id="" placeholder="Please enter password"><br>
+            Confirm Password: <input type="password" name="confirm-pass" id="" placeholder="Please enter password again"><br>
+            Email: <input type="email" name="email" id="" placeholder="Please enter email"><br>
+            Confirm Email: <input type="email" name="confirm-email" id="" placeholder="Please enter email again">
+
+        </Fieldset>
+        <Fieldset>
+            <Legend>Contact Information</Legend>
+            First Name* <input type="text" name="first-name" id="" required><br>
+            Last Name* <input type="text" name="last-name" id="" required><br>
+            Address 1* <input type="text" name="address1" id="" required><br>
+            Address 2 <input type="text" name="address2" id=""><br>
+            City <input type="text" name="city" id=""><br>
+            Бүсчлэл <select name="бүс" id="">
+                <option value="Баруун бүс">Баруун бүс</option>
+                <option value="Зүүн бүс">Зүүн бүс</option>
+                <option value="Төвийн бүс">Төвийн бүс</option>
+                <option value="Capital"selected>Capital</option>
+            </select><br>
+            Zip <input type="number" name="zip" id=""><br>
+                Gender: Female <input type="radio" name="gender" id=""checked>
+                Male <input type="radio" name="gender" id="">
+            
+        </Fieldset>
+        <fieldset>
+            <legend>Mics. Information</legend>
+            Favorite Songs <select name="song" id="">
+                <option value="Pop"selected>Pop</option>
+                <option value="Rock">Rock</option>
+                <option value="Hip Hop">Hip Hop</option>
+            </select><br>
+            Interest <input type="checkbox" name="Interest" id="">
+            Shopping <input type="checkbox" name="Shopping" id="">
+            Sports <input type="checkbox" name="Sports" id="">
+            Travel <input type="checkbox" name="Travel" id="">
+            Gaming <input type="checkbox" name="Gaming" id="">
+        </fieldset>
+        <input type="submit" value="submit">
+
+    </form>
+</body>
+</html>
